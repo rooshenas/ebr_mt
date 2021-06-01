@@ -1,2 +1,1 @@
-# ebr_mt
-This repository contains the code for the paper "Energy-Based Reranking: Improving Neural Machine Translation Using Energy-Based Models"
+# Energy-Based Reranking: Improving Neural Machine Translation Using Energy-Based Models
