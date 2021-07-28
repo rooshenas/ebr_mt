@@ -21,9 +21,9 @@ code includes following steps-
 
 **This code is based in fairseq, Please install fairseq and set it up before cloning this repo.**
 
-****git clone https://github.com/pytorch/fairseq ****
-****cd fairseq ****
-****pip install --editable ./****
+<p>git clone https://github.com/pytorch/fairseq </p>
+<p>cd fairseq </p>
+<p>pip install --editable ./</p>
 
 
 
