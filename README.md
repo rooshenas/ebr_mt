@@ -13,7 +13,7 @@ code includes following steps-
 5. Train the model
 
 
-![hippo](https://github.com/sumantakcs/ebr-nmt/blob/2d77c6112b808584c6b1f84c0e9d9e63814ae7b3/Presentation6.gif)
+![til](https://github.com/sumantakcs/ebr-nmt/blob/2d77c6112b808584c6b1f84c0e9d9e63814ae7b3/Presentation6.gif)
  
  
  
