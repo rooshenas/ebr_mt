@@ -19,11 +19,11 @@ code includes following steps-
  
 **For Marginal-EBM it does not require to finetune the BERT as it is bert-base un-cased model for conditional EBMs, for joint EBMs it is require to download the Multi-Bert model(https://storage.googleapis.com/bert_models/2018_11_23/multi_cased_L-12_H-768_A-12.zip) and finetune it with corresponding language pairs in [CLS]source[SEP]target format[SEP] before using it as the bert-based enrgy value generator.**
 
-****This code is based in fairseq, Please install fairseq and set it up before cloning this repo
+**This code is based in fairseq, Please install fairseq and set it up before cloning this repo.**
 
-****git clone https://github.com/pytorch/fairseq
-cd fairseq
-pip install --editable ./
+****git clone https://github.com/pytorch/fairseq ****
+****cd fairseq ****
+****pip install --editable ./****
 
 
 
