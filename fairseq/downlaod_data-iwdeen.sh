@@ -66,8 +66,8 @@ grep ^H iwdeen.out | cut -f3- > test-hypo.txt
 echo 'data preparation for EBR'
 
 if [ "$1" == "--ebr" ]; then
-    python dataprep-ebr.py -source train-source.txt -target train-target.txt -hypo train-hypo.txt --output train-ebr
-    python dataprep-ebr.py -source val-source.txt -target val-target.txt -hypo val-hypo.txt --output val-ebr
+    python dataprep-ebr.py -source train-source.txt -target train-target.txt -hypo train-hypo.txt -output train-ebr
+    python dataprep-ebr.py -source val-source.txt -target val-target.txt -hypo val-hypo.txt -output val-ebr
     python dataprep-ebr.py -source test-source.txt -target test-target.txt -hypo test-hypo.txt -output test-ebr
 else
     python dataprep.py -source train-source.txt -target train-target.txt -hypo train-hypo.txt -output train-cebr
