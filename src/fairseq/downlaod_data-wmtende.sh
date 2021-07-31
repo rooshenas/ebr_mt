@@ -30,7 +30,7 @@ CUDA_VISIBLE_DEVICES=0 fairseq-train \
     --eval-bleu-print-samples \
     --best-checkpoint-metric bleu --maximize-best-checkpoint-metric \
     --no-last-checkpoints \
-    --max-epoch 1
+    --max-epoch 70
 
 echo 'sample generation for train validation and test dataset'
 

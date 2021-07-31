@@ -7,8 +7,8 @@ import math, copy, time
 from torch.autograd import Variable
 from pytorch_transformers import *
 import sacrebleu
-from torchtext import data, datasets
-from torchtext.vocab import Vectors
+from torchtext.legacy import data, datasets
+from torchtext.legacy.vocab import Vectors
 import pandas as pd
 import logging
 import argparse
