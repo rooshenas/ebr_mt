@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Energy-Based Reranking: Improving Neural Machine Translation Using Energy-Based Models
 
-
-*** checkut the master branch***
-=======
 We have introduced two types of Energy Based Reranking models (Marginal EBMs and Joint-EBMs)
 
 code includes following steps-
