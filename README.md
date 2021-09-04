@@ -15,7 +15,7 @@ code includes following steps-
 
 5. Train the model 
 
-##run the run.sh file under src folder to execute all the above mentioned process
+run the run.sh file under src folder to execute all the above mentioned process
 
 **P.S.**- For conditional ebr a finetuned multibert with the corresponding language pair is required.
 
