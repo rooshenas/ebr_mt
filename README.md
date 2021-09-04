@@ -11,9 +11,11 @@ In order to train the model, following instructions are necessary:
 
 3. Use the trained NMT for sample generation. (100 samples in our case) 
 
-4. prepare the data suitable as input to the ebr. This requires the source, target, samples and bleu score of the samples.
+4. prepare the data suitable as input to the ebr. This requires the target, samples and bleu score of the samples.
 
-5. Train the EBR model. This requies the BERT model as energy score generator along with the prepared samples from the last section.
+5. Train the EBR model. This requires the BERT model as energy score generator along with the prepared samples from the last section.
+
+we dont use gold data in any part of training, (-- mixing-p is 0), in case target data is required for any part of training the mixing-p argument can be set between 0 to 1.
 
 (run the run.sh file under src folder to execute all the above mentioned process)
 
