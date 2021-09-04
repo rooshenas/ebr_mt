@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Energy-Based Reranking: Improving Neural Machine Translation Using Energy-Based Models
 
 
@@ -38,3 +39,6 @@ code includes following steps-
 
 
 >>>>>>> origin/master
+=======
+# ebr_mt
+>>>>>>> 50b2c6e47061f1cb544178ea459ad93b24554852
