@@ -3,19 +3,19 @@
 
 We have introduced two types of Energy Based Reranking models (Marginal EBMs and Joint-EBMs)
 
-code includes following steps-
+In order to train the model, following instructions are necessary:
 
-1. Data downloadng+preprocessing
+1. Download the data and preprocess using fairseq format.
 
-2. Transformer training
+2. Set up a base-NMT (in our case, it is a transformer) train the base-NMT with the preprocessed dataset.
 
-3. sample generation from transformer
+3. Use the trained NMT for sample generation. (100 samples in our case) 
 
-4. make data ready for EBR input
+4. prepare the data suitable as input to the ebr. This requires the source, target, samples and bleu score of the samples.
 
-5. Train the model 
+5. Train the EBR model. This requies the BERT model as energy score generator along with the prepared samples from the last section.
 
-run the run.sh file under src folder to execute all the above mentioned process
+(run the run.sh file under src folder to execute all the above mentioned process)
 
 **P.S.**- For conditional ebr a finetuned multibert with the corresponding language pair is required.
 
@@ -31,6 +31,8 @@ run the run.sh file under src folder to execute all the above mentioned process
 <p>git clone https://github.com/pytorch/fairseq </p>
 <p>cd fairseq </p>
 <p>pip install --editable ./</p>
+
+
 
 
 
