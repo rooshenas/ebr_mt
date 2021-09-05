@@ -15,12 +15,11 @@ In order to train the model, following instructions are necessary:
 
 5. Train the EBR model. This requires the BERT model as energy score generator along with the prepared samples from the last section.
 #### code instructions:
+
 we dont use gold data in any part of training, (-- mixing-p is 0), in case target data is required for any part of training the mixing-p argument can be set between 0 to 1.
 
- src/run.sh should execute the entire process mentioned above,
- under the fairseq folder final-ebr.py executes download script (i.e.-bash downlaod_data-iwdeen.sh --ebr)
- + transformer training (fairseq-train ..) script + sample-generation (uses fairseq format..) script + data preparation ( executes a seperate python file dataprep-
- ebr.py) script + ebr training script (python train_ebr.py) 
+src/run.sh should execute the entire process mentioned above.
+under the fairseq folder, final-ebr.py executes download script (i.e.-bash downlaod_data-iwdeen.sh --ebr)+ transformer training (fairseq-train ..) script + sample generation (uses fairseq format..) script + data preparation ( executes a seperate python file dataprep-ebr.py) script + ebr training script (python train_ebr.py) 
 
 **P.S.**- For conditional ebr a finetuned multibert with the corresponding language pair is required.
 
