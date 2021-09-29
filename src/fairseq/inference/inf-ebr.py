@@ -179,7 +179,7 @@ def output(data_iter, model, field_names):
             k.append(hypo_sents[i])
             l.append(target_sents[i])
     data['target']=l
-    data['Cond-EBR-output']=k
+    data['EBR-output']=k
     p=data.to_csv('inferred_output.csv',index=False)    
 
      
