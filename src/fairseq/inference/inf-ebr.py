@@ -198,7 +198,7 @@ def inference(args) :
        print('Cached:   ', round(torch.cuda.memory_cached(0)/1024**3,1), 'GB')
     model = BertLMModel()
     model.to(device)
-    ckpt=torch.load('<ebr_model_path>', map_location=device)
+    ckpt=torch.load('<ebr_model_path>', map_location=device) ####provide ebr model path
     model.classifier.load_state_dict(ckpt['cls_state_dict'])
     test, field_names = get_data(args)
     BATCH_SIZE= args.batch_size
